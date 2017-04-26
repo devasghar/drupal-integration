@@ -1,0 +1,12 @@
+{
+    "name": "drupal-integration",
+    "title": "Drupal Integration",
+    "description": "Integrate drupal related settings for the editor.",
+    "homepage": "https://github.com/cfjedimaster/something real here",
+    "version": "1.0.0",
+    "author": "Asghar Abbas <dev.asghar@gmail.com> (http://www.raymondcamden.com)",
+    "license": "MIT",
+    "engines": {
+        "brackets": "<=0.34.0"
+    }
+}
