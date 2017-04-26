@@ -24,10 +24,10 @@ define(function(require, exports, module) {
     function panelBottomToggle() {
         if(panel.isVisible()) {
             panel.hide();
-            CommandManager.get(HELLOWORLD_EXECUTE).setChecked(false);
+            CommandManager.get(PANEL_BOTTOM_TOGGLE_EXEC).setChecked(false);
         } else {
             panel.show();
-            CommandManager.get(HELLOWORLD_EXECUTE).setChecked(true);
+            CommandManager.get(PANEL_BOTTOM_TOGGLE_EXEC).setChecked(true);
         }
     }
 
